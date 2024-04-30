@@ -13,7 +13,9 @@
 - En la parte inferior de archivo contact.html donde los script, puedes añadir el fichero contact.js
 - Asegurate de sustituir la IP de la EC2.
 - Puedes usar el siguiente comando para copiar archivos o directorios a tu sistema local a un bucket de Amazon S3:
+```bash
 - aws s3 cp jobentry-1.0.0/ s3://nombre-bucket/ --recursive
+```
   
 ## Conectarse a la base de datos
 - Conectarse a la base de datos:
