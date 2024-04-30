@@ -22,13 +22,13 @@
 - Inicie una sesión interactiva de MySQL con el usuario "admin" en el servidor MySQL especificado. Una vez que ingresas la contraseña del usuario, tendrás acceso a la consola de MySQL donde puedes ejecutar consultas y comandos de administración de bases de datos.
 - Una vez conectado crea la base de datos y la tabla necesarios:
 
--- Crear la base de datos si no existe
+- Crear la base de datos si no existe
 CREATE DATABASE IF NOT EXISTS your_database_name;
 
--- Usar la base de datos recién creada
+- Usar la base de datos recién creada
 USE your_database_name;
 
--- Crear la tabla si no existe
+- Crear la tabla si no existe
 CREATE TABLE IF NOT EXISTS your_table_name (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
