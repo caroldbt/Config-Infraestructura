@@ -26,7 +26,8 @@ formData.append('email', email);
 
 formData.append('message', message);
 
-// URL to your API Gateway endpoint (update with your actual endpoint) const apiUrl = 'http://IP_de_la_ec2/submit.php';
+// URL to your API Gateway endpoint (update with your actual endpoint) 
+  const apiUrl = 'http://IP_de_la_ec2/submit.php';
 
 // Fetch options
 
