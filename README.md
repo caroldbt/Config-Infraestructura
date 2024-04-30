@@ -22,11 +22,18 @@
 - Inicie una sesión interactiva de MySQL con el usuario "admin" en el servidor MySQL especificado. Una vez que ingresas la contraseña del usuario, tendrás acceso a la consola de MySQL donde puedes ejecutar consultas y comandos de administración de bases de datos.
 - Una vez conectado crea la base de datos y la tabla necesarios:
 
-1. CREATE DATABASE IF NOT EXISTS your_database_name;
-2. USE your_database_name;
-3. CREATE TABLE IF NOT EXISTS your_table_name (
-4. id INT AUTO_INCREMENT PRIMARY KEY,
-5. name VARCHAR(255),
-6. email VARCHAR(255),
-7. message TEXT );
+-- Crear la base de datos si no existe
+CREATE DATABASE IF NOT EXISTS your_database_name;
+
+-- Usar la base de datos recién creada
+USE your_database_name;
+
+-- Crear la tabla si no existe
+CREATE TABLE IF NOT EXISTS your_table_name (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    message TEXT
+);
+
 - Con todo hecho debes comprobar en el navegador la funcionalidad del formulario.
