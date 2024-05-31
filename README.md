@@ -1,11 +1,12 @@
+#Configuración Completa de Infraestructura AWS con Frontend, Backend y Base de Datos
 # FrondEnd(S3) BackEnd(EC2) Database(RDS)
 - verifica la configuración del Apache
 - Añadir la política "awssnsFullaccess"
   
 ## Crear topico SNS
 - Crea un topico SNS elige email, asegurate de crear una suscripción y confirmar la suscripción.
-  
-## Crea un S3 bucket
+##1.- Fronted (S3)
+### Crea un S3 bucket
 - Habilita la web estática, con el documento index.html
 - Añade una politica, puedes usar de ejemplo el fichero bucket.txt, y asegurate de cambiar la arn.
 - Puedes usar un archivo de prueba que contenga un formulario por ejemplo:
@@ -16,7 +17,7 @@
 ```bash
 - aws s3 cp jobentry-1.0.0/ s3://nombre-bucket/ --recursive
 ```
-  
+#Backend (RDS)
 ## Conectarse a la base de datos
 - Conectarse a la base de datos:
 - Inicia el servidor MySQL en sistema Linux utilizando systemctl.
